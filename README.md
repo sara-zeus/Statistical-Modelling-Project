@@ -59,6 +59,7 @@ The main processes involved in the project, outlined in bullet points:
 - Understanding and interpreting the coefficients and p-values in the context of the relationships analyzed.
 
 ## Future Goals
-(what would you do if you had more time?)
+- Exploring more advanced statistical techniques,to see if there are potential relationships. 
+
 
 
