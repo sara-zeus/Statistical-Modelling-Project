@@ -47,7 +47,7 @@ The main processes involved in the project, outlined in bullet points:
 - Non-significant coefficients (p-value > 0.05) suggest no meaningful linear connection between the number of available bikes and either rating or review count.
 
 
-
+## Even without a correlation between bikes available and ratings, constructing an ML model for bike availability is plausible by exploring other influential features. Consider leveraging various models and feature engineering techniques to capture complex relationships beyond linear correlations, refining the model iteratively based on evaluation metrics and domain expertise to improve predictive accuracy.
 
 
 
