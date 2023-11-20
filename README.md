@@ -30,7 +30,26 @@ The main processes involved in the project, outlined in bullet points:
 
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+### Bike Availability vs. Ratings
+- No correlation found between the number of bikes available at a location and the rating of that point of interest.
+
+### Price and Review Counts
+- Higher-rated restaurants had higher review counts, and more bikes were available where prices were lower.
+
+### Correlation Analysis
+- No significant linear relationship found between the number of bikes available and the rating.
+- Similarly, no notable linear relationship found between 'categories' and 'rating' based on the correlation analysis.
+
+### R-squared Values
+- Close to zero, indicating almost no relationship between the number of available bikes and either rating or review count.
+
+### Coefficients and Significance
+- Non-significant coefficients (p-value > 0.05) suggest no meaningful linear connection between the number of available bikes and either rating or review count.
+
+
+
+
+
 
 ## Challenges 
 (discuss challenges you faced in the project)
