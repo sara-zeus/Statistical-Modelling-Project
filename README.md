@@ -19,13 +19,6 @@ The main processes involved in the project, outlined in bullet points:
    - `yelp_foursquareEDA.ipynb`
    - `joining_data.ipynb`
    - `model_building.ipynb`
-9. **Structuring a concise presentation covering:**
-   - Project flow
-   - Results demonstration
-   - Regression model explanation
-   - Model outputs
-   - Challenges faced
-   - Potential improvements with more time.
 
 
 
