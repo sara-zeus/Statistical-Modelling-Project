@@ -52,7 +52,11 @@ The main processes involved in the project, outlined in bullet points:
 
 
 ## Challenges 
-(discuss challenges you faced in the project)
+### Correlation Difficulty
+- Difficulty in establishing a meaningful correlation between bike availability and ratings or review counts.
+
+### Interpreting Coefficients
+- Understanding and interpreting the coefficients and p-values in the context of the relationships analyzed.
 
 ## Future Goals
 (what would you do if you had more time?)
