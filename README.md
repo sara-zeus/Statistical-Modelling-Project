@@ -26,9 +26,6 @@ The main processes involved in the project, outlined in bullet points:
 ### Bike Availability vs. Ratings
 - No correlation found between the number of bikes available at a location and the rating of that point of interest.
 
-### Correlation Analysis
-- No significant linear relationship found between the number of bikes available and the rating.
-
 ### R-squared Values
 - Close to zero, indicating almost no relationship between the number of available bikes and either rating or review count.
 
