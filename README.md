@@ -31,7 +31,6 @@ The main processes involved in the project, outlined in bullet points:
 
 ### Correlation Analysis
 - No significant linear relationship found between the number of bikes available and the rating.
-- Similarly, no notable linear relationship found between 'categories' and 'rating' based on the correlation analysis.
 
 ### R-squared Values
 - Close to zero, indicating almost no relationship between the number of available bikes and either rating or review count.
@@ -47,7 +46,7 @@ ________________________________________________________________________________
 ## Challenges 
 ### Correlation Difficulty
 - Difficulty in establishing a meaningful correlation between bike availability and ratings or review counts.
-
+- The data I collected reflects to Paris during nighttime, which might have influenced my findings. 
 ### Interpreting Coefficients
 - Understanding and interpreting the coefficients and p-values in the context of the relationships analyzed.
 
