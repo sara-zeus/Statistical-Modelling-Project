@@ -46,11 +46,15 @@ Create a local SQLite DB and table to hold dataframe information, then insert ro
 - Create a linear regression model with appropriate features.
 - Evaluate Adjusted R-squared, p-values, and interpret the results.
 
-## Results
+# Findings 
 
-Findings from the statistical model:
-- Certain types of points of interest from Foursquare and the minimum distance to the nearest point of interest do not strongly predict the number of rental slots in a bike station.
-- The impactful features identified are:
+During this project, I delved deeply into understanding how the availability of bikes correlates with different characteristics of Points of Interest (POIs) within a specific area. Despite extensive analysis, data exploration, and model building, establishing a clear connection between the number of available bikes and the ratings or reviews of these places proved challenging. 
+
+Pinpointing a definitive link posed a significant challenge, revealing the complexity inherent in the collected data. The specificity of the data to nighttime in Paris might have influenced my findings, introducing additional layers of complexity. It's evident that there's much more to explore within this context.
+
+However, this journey underscored the importance of delving into data intricacies and comprehending the intricacies of models. While a direct, straightforward relationship eluded discovery, it was enlightening to witness the multitude of factors that contribute to predicting bike availability.
+
+Looking forward, I'm enthusiastic about experimenting with various modeling approaches, fine-tuning features, and enriching the dataset. I firmly believe that a myriad of intricate connections exists beyond the obvious ones. My aim is to refine these models further, leveraging expert knowledge to enhance their predictive capabilities.
 
 
 ## Challenges
