@@ -2,7 +2,7 @@
 
 ## Project/Goals
 
-The goal is to analyze bike rental station data from Vancouver and nearby points of interest. This involves building a dataset and a statistical model (using linear regression with the `statsmodel` module in Python) to unveil the relationship between the number of bikes available for rental at each station and the characteristics of nearby points of interest.
+The goal is to analyze bike rental station data from Paris and nearby points of interest. This involves building a dataset and a statistical model (using linear regression with the `statsmodel` module in Python) to unveil the relationship between the number of bikes available for rental at each station and the characteristics of nearby points of interest.
 
 ### Subgoals:
 
