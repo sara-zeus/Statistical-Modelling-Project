@@ -1,5 +1,10 @@
 # Statistical Modelling with Python
 
+## Project Presentation
+
+The project documentation and findings are detailed on [my portfolio page](https://sara-zeus.github.io/Paris.Bikes.html). Feel free to explore the analysis and methodologies employed during this project!
+
+## Installation 
 ## Project/Goals
 
 The goal is to analyze bike rental station data from Paris and nearby points of interest. This involves building a dataset and a statistical model (using linear regression with the `statsmodel` module in Python) to unveil the relationship between the number of bikes available for rental at each station and the characteristics of nearby points of interest.
