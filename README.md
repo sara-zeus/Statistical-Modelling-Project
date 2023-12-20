@@ -50,7 +50,7 @@ Create a local SQLite DB and table to hold dataframe information, then insert ro
 # Findings
 - Despite extensive analysis, establishing a clear link between bike availability and ratings of Points of Interest (POIs) was challenging. Nighttime-specific data from Paris may have complicated findings, suggesting more exploration is needed.
 
-# Challenges
+# Challenges 
 - Correlating bike availability with ratings or reviews posed challenges. Nighttime-focused data might have skewed results. Exploring varied time frames could offer better insights.
 - Despite the absence of a direct link, creating a Machine Learning model remains possible. Diverse models, enriched features (like bike rack counts), and expert refinements can improve predictive accuracy.
 - Exploring models like Random Forests and enhancing the dataset with additional features are potential avenues. I aim to expand techniques and features for a more nuanced predictive model leveraging expert insights.
