@@ -48,26 +48,26 @@ Create a local SQLite DB and table to hold dataframe information, then insert ro
 
 # Findings 
 
-During this project, I delved deeply into understanding how the availability of bikes correlates with different characteristics of Points of Interest (POIs) within a specific area. Despite extensive analysis, data exploration, and model building, establishing a clear connection between the number of available bikes and the ratings or reviews of these places proved challenging. 
+- During this project, I delved deeply into understanding how the availability of bikes correlates with different characteristics of Points of Interest (POIs) within a specific area. Despite extensive analysis, data exploration, and model building, establishing a clear connection between the number of available bikes and the ratings or reviews of these places proved challenging. 
 
-Pinpointing a definitive link posed a significant challenge, revealing the complexity inherent in the collected data. The specificity of the data to nighttime in Paris might have influenced my findings, introducing additional layers of complexity. It's evident that there's much more to explore within this context.
+- Pinpointing a definitive link posed a significant challenge, revealing the complexity inherent in the collected data. The specificity of the data to nighttime in Paris might have influenced my findings, introducing additional layers of complexity. It's evident that there's much more to explore within this context.
 
-However, this journey underscored the importance of delving into data intricacies and comprehending the intricacies of models. While a direct, straightforward relationship eluded discovery, it was enlightening to witness the multitude of factors that contribute to predicting bike availability.
+- However, this journey underscored the importance of delving into data intricacies and comprehending the intricacies of models. While a direct, straightforward relationship eluded discovery, it was enlightening to witness the multitude of factors that contribute to predicting bike availability.
 
-Looking forward, I'm enthusiastic about experimenting with various modeling approaches, fine-tuning features, and enriching the dataset. I firmly believe that a myriad of intricate connections exists beyond the obvious ones. My aim is to refine these models further, leveraging expert knowledge to enhance their predictive capabilities.
+- Looking forward, I'm enthusiastic about experimenting with various modeling approaches, fine-tuning features, and enriching the dataset. I firmly believe that a myriad of intricate connections exists beyond the obvious ones. My aim is to refine these models further, leveraging expert knowledge to enhance their predictive capabilities.
 
 
 ## Challenges
 
-Establishing a meaningful correlation between bike availability and ratings or review counts proved to be challenging.
+- Establishing a meaningful correlation between bike availability and ratings or review counts proved to be challenging.
 
-Additionally, collecting data specifically from the bike API at night might have influenced and skewed the results. Exploring different time frames, beyond just nighttime, is an avenue I'd like to explore in the future to better understand their impact on the outcomes.
+- Additionally, collecting data specifically from the bike API at night might have influenced and skewed the results. Exploring different time frames, beyond just nighttime, is an avenue I'd like to explore in the future to better understand their impact on the outcomes.
 
-Despite the lack of a direct connection between bike availability and ratings, building a Machine Learning model remains feasible. Exploring various influential features, employing diverse models, and iteratively refining the model based on evaluations and expertise can help capture complex relationships beyond linear correlations, thereby enhancing predictive accuracy.
+- Despite the lack of a direct connection between bike availability and ratings, building a Machine Learning model remains feasible. Exploring various influential features, employing diverse models, and iteratively refining the model based on evaluations and expertise can help capture complex relationships beyond linear correlations, thereby enhancing predictive accuracy.
 
-For instance, experimenting with models like Random Forests to assess their performance could be beneficial. Furthermore, enriching the dataset with additional features, such as the count of available bike racks at each location, could provide valuable insights. 
+- For instance, experimenting with models like Random Forests to assess their performance could be beneficial. Furthermore, enriching the dataset with additional features, such as the count of available bike racks at each location, could provide valuable insights. 
 
-I'm keen on exploring different modeling techniques, fine-tuning features, and expanding the dataset. I firmly believe that intricate connections exist beyond the obvious ones and aim to enhance the models by leveraging expert knowledge for a more robust predictive capability.
+- I'm keen on exploring different modeling techniques, fine-tuning features, and expanding the dataset. I firmly believe that intricate connections exist beyond the obvious ones and aim to enhance the models by leveraging expert knowledge for a more robust predictive capability.
 
 
 ## Future Goals
