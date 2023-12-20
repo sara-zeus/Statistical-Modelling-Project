@@ -59,10 +59,16 @@ Looking forward, I'm enthusiastic about experimenting with various modeling appr
 
 ## Challenges
 
-The primary challenges faced were time constraints and API call limits, particularly with regards to:
+Establishing a meaningful correlation between bike availability and ratings or review counts proved to be challenging.
 
-- Time allocation for project completion.
-- API call limitations and their impact on data collection and analysis.
+Additionally, collecting data specifically from the bike API at night might have influenced and skewed the results. Exploring different time frames, beyond just nighttime, is an avenue I'd like to explore in the future to better understand their impact on the outcomes.
+
+Despite the lack of a direct connection between bike availability and ratings, building a Machine Learning model remains feasible. Exploring various influential features, employing diverse models, and iteratively refining the model based on evaluations and expertise can help capture complex relationships beyond linear correlations, thereby enhancing predictive accuracy.
+
+For instance, experimenting with models like Random Forests to assess their performance could be beneficial. Furthermore, enriching the dataset with additional features, such as the count of available bike racks at each location, could provide valuable insights. 
+
+I'm keen on exploring different modeling techniques, fine-tuning features, and expanding the dataset. I firmly believe that intricate connections exist beyond the obvious ones and aim to enhance the models by leveraging expert knowledge for a more robust predictive capability.
+
 
 ## Future Goals
 
