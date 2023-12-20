@@ -24,8 +24,8 @@ Before accessing the APIs, several factors were considered:
 ### API Calls
 
 1. Call citybikes API (2 endpoints) to retrieve information about bike stations in Paris.
-2. Call Yelp API (Businesses Search endpoint) to gather information about points of interest within 1 km of each bike station.
-3. Call Foursquare API (Place Search endpoint) to collect information about points of interest within 1 km of each bike station.
+2. Call Yelp API (Businesses Search endpoint) to gather information about points of interess. 
+3. Call Foursquare API (Place Search endpoint) to collect information about points of interests. 
 
 ### Initial EDA for Data Cleaning
 
@@ -51,8 +51,7 @@ Create a local SQLite DB and table to hold dataframe information, then insert ro
 Findings from the statistical model:
 - Certain types of points of interest from Foursquare and the minimum distance to the nearest point of interest do not strongly predict the number of rental slots in a bike station.
 - The impactful features identified are:
-  - Number of POIs with "outdoor" characteristics within 1 km radius from bike station (coefficient: 0.6735, p-value: 9.162179e-07).
-  - Number of POIs with "snack" characteristics within 1 km radius from bike station (coefficient: -0.0496, p-value: 0.015).
+
 
 ## Challenges
 
