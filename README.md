@@ -1,51 +1,70 @@
-# Final-Project-Statistical-Modelling-with-Python
+# Final Project: Statistical Modelling with Python
 
 ## Project/Goals
-This project involves applying Python skills to handle data from APIs, clean and transform it, perform exploratory data analysis, build statistical models, and present findings effectively.
+
+The goal is to analyze bike rental station data from Vancouver and nearby points of interest. This involves building a dataset and a statistical model (using linear regression with the `statsmodel` module in Python) to unveil the relationship between the number of bikes available for rental at each station and the characteristics of nearby points of interest.
+
+### Subgoals:
+
+- Query 3 different APIs using Python and parse JSON data into Pandas dataframes.
+- Manipulate, clean, and pivot dataframes for analysis using Pandas.
+- Utilize `matplotlib` and `seaborn` modules to create visualizations for Exploratory Data Analysis (EDA) and aid in building the regression model.
+- Create a local SQLite file database and store dataframe data within it using the `sqlite3` module.
+- Employ the `statsmodel` module to develop multivariate linear regression models, assess feature inclusion, and evaluate and interpret the results.
 
 ## Process
 
-The main processes involved in the project, outlined in bullet points:
+### Preparation: Analysis/Examination of APIs
 
-1. **Accessing data using APIs**
-2. **Cleaning and transforming data using Python**
-3. **Loading data into a database using Python**
-4. **Performing Exploratory Data Analysis (EDA) with statistics and visualizations**
-5. **Identifying trends and patterns in data using statistical models**
-6. **Interpreting the results obtained from the statistical models**
-7. **Creating a README.md file for project overview**
-8. **Completing four Jupyter notebooks:** 
-   - `city_bikes.ipynb`
-   - `yelp_foursquareEDA.ipynb`
-   - `joining_data.ipynb`
-   - `model_building.ipynb`
+Before accessing the APIs, several factors were considered:
+- Number of free API calls available in the "free tier" for each API.
+- Authorization types required for each API.
+- API call limit reset frequency and timing.
 
+### API Calls
 
+1. Call citybikes API (2 endpoints) to retrieve information about bike stations in Vancouver.
+2. Call Yelp API (Businesses Search endpoint) to gather information about points of interest within 1 km of each bike station.
+3. Call Foursquare API (Place Search endpoint) to collect information about points of interest within 1 km of each bike station.
 
-# Results
+### Initial EDA for Data Cleaning
 
-## Bike Availability vs. Ratings
+Perform data cleaning and validation on the returned data for all 3 dataframes.
 
-It turns out there's no clear link between the number of bikes available at a location and the ratings of those places.
+### Data Transformation for Model Building
 
-## R-squared Values
+- Join various dataframes for further investigation and graphing.
+- Pivot and "collapse" dataframes to obtain aggregated data suitable for model building/linear regression.
 
-Those values were pretty close to zero, suggesting there's hardly any relationship between the number of bikes available and the ratings or review counts.
+### Write Dataframe to SQLite Database
 
-## Coefficients and Significance
+Create a local SQLite DB and table to hold dataframe information, then insert rows into the table and confirm completeness.
 
-The coefficients weren't significant enough (p-value > 0.05), indicating no solid linear connection between the number of bikes available and the ratings or reviews.
+### Build Statistical Model and Interpret Results
 
-## Challenges and Things I Would Do Differently: Things to Consider
+- Employ model evaluation methods to determine which features to include.
+- Create a linear regression model with appropriate features.
+- Evaluate Adjusted R-squared, p-values, and interpret the results.
 
-Difficulty in establishing a meaningful correlation between bike availability and ratings or review counts.
+## Results
 
-I also pulled data from the bike API at night, which might've skewed my results a bit. In the future, I'd like to try out different times of day and see how that affects the results.
+Findings from the statistical model:
+- Certain types of points of interest from Foursquare and the minimum distance to the nearest point of interest do not strongly predict the number of rental slots in a bike station.
+- The impactful features identified are:
+  - Number of POIs with "outdoor" characteristics within 1 km radius from bike station (coefficient: 0.6735, p-value: 9.162179e-07).
+  - Number of POIs with "snack" characteristics within 1 km radius from bike station (coefficient: -0.0496, p-value: 0.015).
 
-Despite the absence of a direct connection between bike availability and ratings, it's still feasible to build a Machine Learning model for bike availability. Exploring different influential features, using various models, and refining the model iteratively based on evaluations and expertise can capture the complex relationships beyond just linear correlations, improving predictive accuracy.
+## Challenges
 
-For example, I could try out different models, such as Random Forests, and see how they perform. I could also add more features to the dataset, such as the number of bike racks available at each location. I could also try out different ways of modeling, tweaking features, and adding more to the dataset. I believe there's a whole world of intricate connections beyond the obvious ones. I'm aiming to fine-tune those models, bringing in expert knowledge to make them even better.
+The primary challenges faced were time constraints and API call limits, particularly with regards to:
 
-## Conclusion
+- Time allocation for project completion.
+- API call limitations and their impact on data collection and analysis.
 
-During this project, I really dove into understanding how bike availability relates to the different characteristics of Points of Interest (POIs) in a specific area. Despite digging deep, analyzing data, and building models, I couldn't find a clear connection between the number of available bikes and the ratings or reviews of these places. The tough part was trying to pin down a definite link, and it made me realize just how complex the data I collected was. Especially since it was specific to nighttime in Paris, it might've swayed my findings a bit. There's definitely more to explore there. But you know what? This whole journey showed me just how crucial it is to really dig into data and understand those models. Even though I couldn't find a direct, simple relationship, it was eye-opening to see how many factors play into predicting bike availability. Looking ahead, I'm excited to try out different ways of modeling, tweaking features, and adding more to the dataset. I believe there's a whole world of intricate connections beyond the obvious ones. I'm aiming to fine-tune those models, bringing in expert knowledge to make them even better.
+## Future Goals
+
+With more time, potential future areas of exploration include:
+
+- Analyzing the correlation between the operating company of bike stations and their characteristics.
+- Evaluating the predictive capability resulting from features in the Yelp dataset (number of ratings, average rating).
+- Collecting more comprehensive data regarding bike utilization and points of interest, considering seasonal changes and optimizing API calls.
