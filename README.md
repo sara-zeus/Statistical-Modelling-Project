@@ -23,7 +23,7 @@ Before accessing the APIs, several factors were considered:
 
 ### API Calls
 
-1. Call citybikes API (2 endpoints) to retrieve information about bike stations in Vancouver.
+1. Call citybikes API (2 endpoints) to retrieve information about bike stations in Paris.
 2. Call Yelp API (Businesses Search endpoint) to gather information about points of interest within 1 km of each bike station.
 3. Call Foursquare API (Place Search endpoint) to collect information about points of interest within 1 km of each bike station.
 
